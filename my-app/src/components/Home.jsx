@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
-import Weather from './Weather';
+// import Weather from './Weather';
 import Footer from './Footer';
 import Events from './Events';
 
@@ -12,7 +12,7 @@ function Home () {
     <div>
       <Navbar />
       <Hero />
-      <Weather />
+      {/* <Weather /> */}
       <Events />
       <Footer />
     </div>

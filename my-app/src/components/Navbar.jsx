@@ -26,7 +26,9 @@ const Navbar = () => {
             <li><Link to="events" smooth={true} duration={500}>
             Events
             </Link></li>
-            <li></li>
+            <li>CraftBeer</li>
+            <li>PetFriendly</li>
+            <li>FarmersMarket</li>
           </ul>
         </div>
 
