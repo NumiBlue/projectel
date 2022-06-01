@@ -19,13 +19,14 @@ const Navbar = () => {
         <div className='hidden md:flex'>
           <ul className='flex text-[#99B898] items-center'>
             <li><Link to="hero" smooth={true} duration={500}>
-            About</Link></li>
+            Home</Link></li>
             <li><Link to="weatherapi" smooth={true} duration={500}>
             <TiWeatherPartlySunny size={30} />
             </Link></li>
             <li><Link to="events" smooth={true} duration={500}>
             Events
             </Link></li>
+            <li></li>
           </ul>
         </div>
 

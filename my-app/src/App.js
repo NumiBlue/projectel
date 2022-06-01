@@ -1,6 +1,6 @@
 import React from 'react';
 import FormSignup from './components/FormSignup';
-import Login from './components/Login'
+import Login from './components/Login';
 import CraftBeer from './components/CraftBeer';
 import FarmToTable from './components/FarmToTable';
 import FarmersMarkets from './components/FarmersMarkets';
