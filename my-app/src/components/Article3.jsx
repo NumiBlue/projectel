@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import CommentBox from './CommentBox';
 
 const Article3 = () => {
   return (
@@ -9,6 +10,7 @@ const Article3 = () => {
                 <p className='text-4xl font-bold inline border-b-4 text-[#99B898] border-[#E84A5F]'>Text</p>
                 <p className='py-6 text-[#E84A5F]'>Text</p>
            </div>
+           <CommentBox />
         </div>
         </div>
     </div>
