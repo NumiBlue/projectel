@@ -28,10 +28,10 @@ const PetFriendly = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
+              <h1 class="text-3xl font-semibold">Red Bud Isle</h1>
+              <p class="my-2"></p>
               <p>
-                Short description of Event
+              Red Bud Isle is a pet-friendly natural area. With water on 3 sides, your pet is sure to have a blast in the summer. Please remember to pick up after your furry friend's frolic. Human companions can also hike, kayak, and paddle-board at Red Bud Isle.
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
@@ -58,10 +58,10 @@ const PetFriendly = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
+              <h1 class="text-3xl font-semibold">Zilker Park Botanical Gardens</h1>
+              <p class="my-2"></p>
               <p>
-                Short description of Event
+              Zilker Park Botanical Gardens welcomes two-legged and four-legged visitors to observe it's unusual collection of plants and scenery. Pups and their people can stroll through a myriad of botanical environs within the park. The Botanical Gardens are open almost every day to visitors. They also host seasonal decor depending on time-of-year. Be sure to check out their fairy garden!
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
@@ -88,10 +88,10 @@ const PetFriendly = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
+              <h1 class="text-xl font-semibold">4th Tap Brewing Cooperative</h1>
+              <p class="my-2"></p>
               <p>
-                Short description of Event
+              4th Tap Brewing Cooperative is a great place to enjoy a cold brew with your pet. Dogs are welcome outside or inside on leash. This is a small, worker-owned co-op with a chill vibe and chill beer. Check the website for hours.
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
