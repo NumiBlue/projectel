@@ -3,6 +3,8 @@ import signupImg from '../assets/austin.jpg';
 import useForm from '../components/useForm';
 import validate from '../components/validateInfo';
 import  Login  from './Login';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -73,7 +75,7 @@ const FormSignup = ({ submitForm }) => {
                     />
                     {errors.confirmPassword && <p className='text-red-600'>{errors.confirmPassword}</p>}
                 </div>
-                <button className='w-full py-3 mt-6 relative text-white'>Register</button>
+                <button className='w-full py-3 mt-6 relative text-white'>Register<Link to='Login' exact component={Login}></Link></button>
                 <span className='text-center mt-6'>Already have an account? Sign in <a href= {Login} >HERE</a>
                 </span>
             </form>
