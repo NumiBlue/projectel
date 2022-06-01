@@ -3,6 +3,7 @@ import Typed from 'react-typed';
 import backgroundImage from '../assets/mural.jpg';
 import FormSignup from '../components/FormSignup';
 import { FaLocationArrow } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -28,7 +29,7 @@ const Hero = () => {
                  <h1 className='text-xl font bold md:py-6 text-center vertical-align:middle text-[#E84A5F]'>A one-stop shop for the best taco trucks, pet friendly establishments, farmers markets, farm to table restaurants, craft beer, lgbtq owned bussinesses, events around the city, and everything in between.   </h1>
 
                  <div>
-                     <button onClick={FormSignup} className='bg w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Sign Up/Sign In</button>
+                     <button onClick={FormSignup} className='bg w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white'><Link to='Login' exact component={Login}>Sign Up/Sign In</Link></button>
                  </div>                               
             
         </div>
