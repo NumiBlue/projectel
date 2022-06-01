@@ -3,6 +3,9 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
 import { TiWeatherPartlySunny } from 'react-icons/ti'
+import FarmersMarkets from './FarmersMarkets'
+import PetFriendly from './PetFriendly'
+import CraftBeer from './CraftBeer'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -26,9 +29,9 @@ const Navbar = () => {
             <li><Link to="events" smooth={true} duration={500}>
             Events
             </Link></li>
-            <li>CraftBeer</li>
-            <li>PetFriendly</li>
-            <li>FarmersMarket</li>
+            <li><Link to="/CraftBeer" exact component={CraftBeer}></Link>CraftBeer</li>
+            <div><Link to="/PetFriendly" exact component={PetFriendly}></Link>PetFriendly</div>
+            <div><Link to="/FarmersMarkets" exact component={FarmersMarkets}></Link>FarmersMarkets</div>
           </ul>
         </div>
 
