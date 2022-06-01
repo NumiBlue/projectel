@@ -1,6 +1,6 @@
 import React from 'react';
 import  Navbar  from "./components/Navbar";
-import Hero  from "./components/Hero";
+import Hero from "./components/Hero";
 import  Events   from "./components/Events";
 import  Weather from "./components/Weather";
 import  Footer  from "./components/Footer";
@@ -16,6 +16,7 @@ import Article1 from './components/Article1';
 import Article2 from './components/Article2';
 import Article3 from './components/Article3';
 import FormSuccess from './components/FormSuccess';
+import { Routes, Route, } from "react-router-dom";
 
 
 
@@ -23,15 +24,29 @@ function App () {
 
   return (
 <>
-    <div>
+<div>
       <Navbar />
-      <Hero />
-      <Weather />
-      <Events />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="weather" element={<Weather />}/>
+        <Route path="events" element={<Events />} />
+        <Route path="FormSignup" element={<FormSignup /> } />
+        <Route path="FormSuccess" element={<FormSuccess />} />
+        <Route path="login" element={<Login />} />
+        <Route path="Craftbeer" element={<CraftBeer /> } />
+        <Route path="FarmToTable" element={<FarmToTable />} />
+        <Route path="FarmersMarkets" element={<FarmersMarkets />} />
+        <Route path="PetFriendly" element={<PetFriendly />} />
+        <Route path="LGBTQowned" element={<LGBTQowned /> } />
+        <Route path="TacoTrucks" element={<TacoTrucks />} />
+        <Route path="Article1" element={<Article1 />} />
+        <Route path="Article2" element={<Article2 />} />
+        <Route path="Article3" element={<Article3 />} />
+      </Routes>
       <Footer />
     </div>
 
-    <div className=''>
+    {/* <div className='hidden'>
       <FormSignup />
       <Login />
       <FormSuccess />
@@ -44,7 +59,7 @@ function App () {
       <Article1 />
       <Article2 />
       <Article3 />
-    </div>
+    </div> */}
   </>
   
   );
