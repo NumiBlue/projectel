@@ -28,10 +28,9 @@ const CraftBeer = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
-              <p>
-                Short description of Event
+              <h1 class="text-3xl font-semibold">Ciders</h1>
+              <p class="my-2">
+              Texas Ciders are renowned and Austin has a number of elegant options. A refreshing and light alternative to basic brews, cider summer is here! From Moontower to Austin EastCiders, you'll find these crisp and sweet drinks all over the city this season.
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
@@ -58,10 +57,8 @@ const CraftBeer = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
-              <p>
-                Short description of Event
+              <h1 class="text-3xl font-semibold">New Beer Drops!</h1>
+              <p class="my-2">This week to kick off the summer, several beers are being released. Hedgehog Brewing is releasing a Strata dry-hopped farmhouse that is sure to satisfy. Bigger on the sours? Blue Owl Brewing is releasing four new sour flower beers to great acclaim. Enjoy them on their own or with lobster rolls at the brewery. Check back weekly for new releases!
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
@@ -88,10 +85,8 @@ const CraftBeer = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
-              <p>
-                Short description of Event
+              <h1 class="text-3xl font-semibold">Memorial Day</h1>
+              <p class="my-2">Looking for something to do on Memorial Day? Several of the local breweries are staying open to accommodate holiday sippers. Have a rustic beer or house-infused whiskey at The BuzzMill or take in live music with other families at Slacker's Brewing Co. Have a safe and relaxing holiday weekend!
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
