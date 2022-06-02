@@ -13,6 +13,8 @@ import Article3 from './components/Article3';
 import FormSuccess from './components/FormSuccess';
 import { Routes, Route } from "react-router-dom";
 import Home from './components/Home';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 
 function App () {
@@ -20,7 +22,7 @@ function App () {
   return (
 <>
 <div>
-      
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home /> } />
         <Route path="FormSignup" element={<FormSignup /> } />
@@ -36,6 +38,7 @@ function App () {
         <Route path="Article2" element={<Article2 />} />
         <Route path="Article3" element={<Article3 />} />
       </Routes>
+      <Footer />
       
     </div>
 
