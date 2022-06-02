@@ -6,13 +6,14 @@ import { TiWeatherPartlySunny } from 'react-icons/ti'
 import FarmersMarkets from './FarmersMarkets'
 import PetFriendly from './PetFriendly'
 import CraftBeer from './CraftBeer'
+import TacoTrucks from './TacoTrucks'
 
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleNav= () => {
       setNav(!nav)
-      
+
     }
 
   return (
@@ -31,9 +32,10 @@ const Navbar = () => {
             <li><Link to="events" smooth={true} duration={500}>
             Events
             </Link></li>
-            <div><Link to="/CraftBeer" exact component={CraftBeer}></Link>CraftBeer</div>
-            <div><Link to="/PetFriendly" exact component={PetFriendly}></Link>PetFriendly</div>
-            <div><Link to="/FarmersMarkets" exact component={FarmersMarkets}></Link>FarmersMarkets</div>
+            <li><Link to="/CraftBeer" exact component={CraftBeer}></Link>CraftBeer</li>
+            <li><Link to="/PetFriendly" exact component={PetFriendly}></Link>PetFriendly</li>
+            <li><Link to="/FarmersMarkets" exact component={FarmersMarkets}></Link>FarmersMarkets</li>
+            <li><Link to="/TacoTrucks" exact component={TacoTrucks}>TacoTrucks</Link></li>
           </ul>
         </div>
 
