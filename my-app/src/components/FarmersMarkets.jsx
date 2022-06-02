@@ -28,10 +28,8 @@ const FarmersMarkets = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
-              <p>
-                Short description of Event
+              <h1 class="text-3xl font-semibold">Local is Better</h1>
+              <p class="my-2">It's that time of year again! Local farmer's markets are opening back up and bursting with fresh produce. Check out some of the seasonal events with live music, local bakeries, and ready-to-eat treats alongside local growers.
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
@@ -58,10 +56,8 @@ const FarmersMarkets = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
-              <p>
-                Short description of Event
+              <h1 class="text-3xl font-semibold">Mueller</h1>
+              <p class="my-2">Sundays at Mueller Lake Park, enjoy a calm stroll through the park as well as all the fresh offerings on display. Before making your purchases, have a bite at a locally-owned food-truck or tour the Thinkery, an unusual and charming children's museum. Pick up a bottle of Elgin Meadery's famous homey wine or enjoy Engel Farm's year-round selection. Open Sunday from 10am-2pm.
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
@@ -88,10 +84,8 @@ const FarmersMarkets = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
-              <p>
-                Short description of Event
+              <h1 class="text-3xl font-semibold">Lone Star</h1>
+              <p class="my-2">Lone Star Farmer's market is quite a sight with over 40 booths to peruse. Offering gifts, body products, and ready-made food, this is a fantastic way to spend a Sunday morning (10am-2pm). Hill Country Galleria is pet-friendly, so make sure to bring your best friend along for the adventure. Who else has such a discerning nose for fresh veg?
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
