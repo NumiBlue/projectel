@@ -32,9 +32,9 @@ const Navbar = () => {
             <li><Link to="events" smooth={true} duration={500}>
             Events
             </Link></li>
-            <li><Link to="/CraftBeer" exact component={CraftBeer}></Link>CraftBeer</li>
-            <li><Link to="/PetFriendly" exact component={PetFriendly}></Link>PetFriendly</li>
-            <li><Link to="/FarmersMarkets" exact component={FarmersMarkets}></Link>FarmersMarkets</li>
+            <li><Link to="/CraftBeer" exact component={CraftBeer}>CraftBeer</Link></li>
+            <li><Link to="/PetFriendly" exact component={PetFriendly}>PetFriendly</Link></li>
+            <li><Link to="/FarmersMarkets" exact component={FarmersMarkets}>FarmersMarkets</Link></li>
             <li><Link to="/TacoTrucks" exact component={TacoTrucks}>TacoTrucks</Link></li>
           </ul>
         </div>
