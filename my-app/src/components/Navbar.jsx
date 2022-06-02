@@ -3,11 +3,17 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import Logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
 import { TiWeatherPartlySunny } from 'react-icons/ti'
+import FarmersMarkets from './FarmersMarkets'
+import PetFriendly from './PetFriendly'
+import CraftBeer from './CraftBeer'
+import TacoTrucks from './TacoTrucks'
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleNav= () => {
       setNav(!nav)
+
     }
 
   return (
@@ -19,13 +25,17 @@ const Navbar = () => {
         <div className='hidden md:flex'>
           <ul className='flex text-[#99B898] items-center'>
             <li><Link to="hero" smooth={true} duration={500}>
-            About</Link></li>
+            Home</Link></li>
             <li><Link to="weatherapi" smooth={true} duration={500}>
             <TiWeatherPartlySunny size={30} />
             </Link></li>
             <li><Link to="events" smooth={true} duration={500}>
             Events
             </Link></li>
+            <li><Link to="/CraftBeer" exact component={CraftBeer}>CraftBeer</Link></li>
+            <li><Link to="/PetFriendly" exact component={PetFriendly}>PetFriendly</Link></li>
+            <li><Link to="/FarmersMarkets" exact component={FarmersMarkets}>FarmersMarkets</Link></li>
+            <li><Link to="/TacoTrucks" exact component={TacoTrucks}>TacoTrucks</Link></li>
           </ul>
         </div>
 
@@ -45,6 +55,9 @@ const Navbar = () => {
             <li><Link to="events" smooth={true} duration={500}>
             Community
             </Link></li>
+            <li>CraftBeer</li>
+            <li>PetFriendly</li>
+            <li>FarmersMarket</li>
           </ul>
         </div>
       </div>  

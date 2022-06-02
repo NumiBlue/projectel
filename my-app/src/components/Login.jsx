@@ -1,6 +1,8 @@
 import React from 'react'
 import loginImg from '../assets/austin.jpg'
 import FormSignup from './FormSignup'
+import { Link } from 'react-router-dom';
+import Home from './Home'
 
 
 export default function Login () {
@@ -25,7 +27,7 @@ export default function Login () {
                     type='password' 
                     placeholder='Please enter your password'/>
                 </div>
-                <button className='w-full py-3 mt-6 relative text-white'>Sign In</button>
+                <button className='w-full py-3 mt-6 relative text-white'><Link to='/' exact component={Home}>Sign In</Link></button>
                 <span className='text-center mt-6'>Not a member? Sign up <a href={FormSignup}>HERE</a>
                 </span>
             </form>

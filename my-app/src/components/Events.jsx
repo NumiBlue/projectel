@@ -88,10 +88,10 @@ const Events = () => {
             <div
               class="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
             >
-              <h1 class="text-3xl font-semibold">Event Title</h1>
-              <p class="my-2">Event Date</p>
+              <h1 class="text-3xl font-semibold">Welcome to Pride Month!</h1>
+              <p class="my-2"></p>
               <p>
-                Short description of Event
+               Austin scores a 100 on human rights, so every month is Pride here. However, if you want to partake in some of the festivities check out family-friendly Austin Pride, or it's radically-inclusive cousin, QueerBomb!
               </p>
               <button
                 class="text-black rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-20 scale-0 group-hover:scale-125"
